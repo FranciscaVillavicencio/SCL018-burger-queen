@@ -7,7 +7,7 @@ const Firstview = () => {
 
   return (
     
-      <div className="container flex flex-col items-center mx-auto mt-6 mb-6 ml-6 mr-6 justify-items-center bg-red-50"  >
+      <div className="container flex flex-col items-center mx-auto mt-6 mb-6 ml-6 mr-6 justify-items-center bg-red-50">
        
          <img className = "object-contain w-1/2 pt-16 pb-14 h-1/2" src= {recursos.img1}/>
            

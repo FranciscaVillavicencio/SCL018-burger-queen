@@ -3,45 +3,49 @@
 
     {
       "id": "a01",
-      "design": "Rengoku",
-      "dimensions": "30 x 40 cm",
-      "description": "Bolsas de tela,estampadas con vinilo textil",
-      "value": "3500",
-      "img": "https://i.imgur.com/xjHxA7S.jpg"
+      "name": "Rengoku",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/Sq9aDWS.jpg"
     },
 
     {
       "id": "a02",
-      "design": "Gojo Satoru",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1kqxzntR-miIlc3T1g1zOWpMJnVVZX3EZ/view?usp=sharing"
+      "name": "Gojo Satoru",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/Hna30r5.jpg"
     },
 
     {
       "id": "a03",
-      "design": "Gengar",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1o0uO2SR4cmDeVWq5SoPrJ9glz4jpxPYZ/view?usp=sharing"
+      "name": "Gengar",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/y1ihfG5.jpg"
     },
     {
       "id": "a04",
-      "design": "Azuka",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1gLF5jWm8W_pBHGg_WICPhqeOI9liauUe/view?usp=sharing"
+      "name": "Azuka",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/GxdbQxf.jpg"
 
     },
     {
       "id": "a05",
-      "design": "Makima",
-      "value": "3500",
-      "img": "https://i.imgur.com/xjHxA7S.jpg"
+      "name": "Makima",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img":"https://i.imgur.com/xjHxA7S.jpg"
 
     },
     {
       "id": "a06",
-      "design": "Sailor Moon",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1uLSV8v1I4NoeFl2XHJJllkOHYEbGs_p_/view?usp=sharing"
+      "name": "Sailor Moon",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/Bv1B8bB.jpg"
 
     }
   ],
@@ -49,39 +53,44 @@
 
     {
       "id": "a07",
-      "design": "Rengoku",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1_VZrgcscKWRnlBAt-PJjCFepWa4gJFiM/view?usp=sharing"
+      "name": "Rengoku",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/8XH8h1L.jpg"
     },
     {
       "id": "a08",
-      "design": "Gojo Satoru",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1HKrpuohCbB1j_6q0nk8IfJc4uClrZKFB/view?usp=sharing"
+      "name": "Gojo Satoru",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/mfqh60t.jpg"
     },
     {
       "id": "a09",
       "design": "Gengar",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1N09j9Ak2CWTW74snbDQmC3eO7udCmw4F/view?usp=sharing"
+      "value": "$4000",
+      "img": "https://i.imgur.com/3mvSqLw.jpg"
     },
     {
       "id": "a010",
-      "design": "Azuka",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1DJn4uFiMpjyE6N2F3yWkn323NUIKsWJ_/view?usp=sharing"
+      "name": "Azuka",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/CbcqvDy.jpg"
     },
     {
       "id": "a011",
-      "design": "Makima",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1jC9vdNbvdDMqzoOuwX_xG4xedzt8be-A/view?usp=sharing"
+      "name": "Makima",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img":"https://i.imgur.com/dlC4Nxn.jpg"
     },
     {
       "id": "a012",
-      "design": "Sailor Moon",
-      "value": "3500",
-      "img": "https://drive.google.com/file/d/1N09j9Ak2CWTW74snbDQmC3eO7udCmw4F/view?usp=sharing"
+      "name": "Sailor Moon",
+      "description": "Bolsas de tela,estampadas con vinilo textil, sus dimensiones son de 30x40 cm",
+      "price": "$4000",
+      "img": "https://i.imgur.com/vnnj0NF.jpg"
     }
   ]
 }
