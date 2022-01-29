@@ -1,6 +1,6 @@
 
 import {NavRojo} from "../componentes/Nav";
-import CardProducts from "../componentes/CardProducts";
+import Products from "../componentes/Products";
 
 const ViewProducts = () => {
 
@@ -12,14 +12,11 @@ const ViewProducts = () => {
           </>
 
           <>
-          <CardProducts/>
+          <Products/>
           </>
-
-          
-      </section>
+        </section>
     );
 };
 
 
-
-export default ViewProducts
+export default ViewProducts;
