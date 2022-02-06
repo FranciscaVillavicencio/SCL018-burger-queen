@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import recursos from "../recursos/img";
+import CarritoCompras from './CarritoCompras';
 
 
 const NavRosado = () => {
@@ -30,7 +31,7 @@ const NavRojo = () => {
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Viewdetailorder">
+          <Link to="/carroCompras">
             <img src={recursos.img5} alt="btn de envio a taller" />
           </Link>
         </div>
@@ -40,6 +41,7 @@ const NavRojo = () => {
             <img src={recursos.img4} alt="btn de salida " />
           </Link>
         </div>
+
       </nav>
     </div>
   );

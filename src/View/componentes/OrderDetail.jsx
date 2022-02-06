@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FormPedidos from "./FormPedidos";
 
 
 
@@ -6,8 +7,6 @@ const OrderDetail = () => {
   const [client, setclient] = useState("");
   const [date, setdate] = useState("");
   const [condition, setcondition] = useState("");
-
-
 
   const onChange = (evento) => {
    if(evento.target.name === "cliente"){
@@ -20,7 +19,9 @@ const OrderDetail = () => {
   }
 
   return (
+
     <div>
+
       <div>
         <input
           className="border-2 border-rose-600"
@@ -72,6 +73,10 @@ const OrderDetail = () => {
           
         </table>
       </div>
+
+
+
+
     </div>
   );
 };

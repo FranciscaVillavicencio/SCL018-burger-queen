@@ -2,7 +2,7 @@
 import {NavRojo} from "../componentes/Nav";
 import Products from "../componentes/Products";
 
-const ViewProducts = () => {
+const ViewProducts = ({white, black}) => {
 
     return (
 

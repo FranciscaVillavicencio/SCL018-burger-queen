@@ -18,10 +18,7 @@ const Ordersview = () => {
             <Link to="/ViewProducts">Agregar Pedido</Link></button>
         </div>
        
-       
-        <div>
-          <OrderDetail/>
-          </div>
+      
       </div>
     </section>
   );
