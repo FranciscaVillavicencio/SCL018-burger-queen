@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import recursos from "../recursos/img";
-import CarritoCompras from './CarritoCompras';
+import recursos from "./recursos/img";
 
 
 const NavRosado = () => {
@@ -13,7 +12,7 @@ const NavRosado = () => {
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Firstview">
+          <Link to="/Inicio">
             <img src={recursos.img4} alt="btn- de salida" />
           </Link>
         </div>
@@ -31,13 +30,13 @@ const NavRojo = () => {
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/carroCompras">
+          <Link to="/Cart">
             <img src={recursos.img5} alt="btn de envio a taller" />
           </Link>
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Firstview">
+          <Link to="/Inicio">
             <img src={recursos.img4} alt="btn de salida " />
           </Link>
         </div>
@@ -56,7 +55,7 @@ const NavNaranjo = () => {
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Firstview">
+          <Link to="/Inicio">
             <img src={recursos.img4} alt="btn- de salida" />
           </Link>
         </div>
