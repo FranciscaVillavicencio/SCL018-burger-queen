@@ -30,7 +30,7 @@ const NavRojo = () => {
         </div>
 
         <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Cart">
+          <Link to="/detailOrder">
             <img src={recursos.img5} alt="btn de envio a taller" />
           </Link>
         </div>

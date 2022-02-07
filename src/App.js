@@ -34,8 +34,7 @@ const App = () => {
   }
 
 
-  //sumar 1 cantidad de producto
-  
+  //sumar cantidad de producto.
   const increase = (id) => {
     setState({
       ...state,
@@ -47,7 +46,7 @@ const App = () => {
     });
   };
    
-  //restar cantidad de producto
+  //restar cantidad de producto.
 
   const decrease = (id) => {
     setState({
@@ -59,13 +58,23 @@ const App = () => {
       )
     });
   };
+ 
+  //eliminar producto.
+
+  const removeFromCart = (id) => {
+    setState({
+      ...state,
+      cart: state.cart.filter((cartItem) => cartItem.id !== id)
+    });
+  };
 
 
 
 
+  const global = {state:state, addProduct, decrease, increase, removeFromCart  }
 
-  const global = {state:state, addProduct, decrease, increase  }
 
+  
 
 
   return (
@@ -77,8 +86,8 @@ const App = () => {
           <Route path="/" element={<Inicio />} />
           <Route path="/Inicio" element={<Inicio />} />
           <Route path="/Orders" element={<Orders />} />
-          <Route path="/Products" element={<Products data = {data} />} />
-          <Route path="/Cart" element={<Cart  />} />
+          <Route path="/Products" element={<Products data = {data} />} />      
+          <Route path="/cart" element={<Cart  />} />
         </Routes>
       </Router>
     </div>
