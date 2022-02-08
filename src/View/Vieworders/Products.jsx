@@ -8,6 +8,7 @@ import { NavRojo } from '../Nav';
 
 const Products = ({data}) => {
  const context = useContext (ContextGlobal);
+ const cartItem = context.state.cart;
   
 
   const [bags, setbags] = useState([]);
@@ -21,7 +22,7 @@ const Products = ({data}) => {
   return (
     <>
        
-       <NavRojo/>
+       <NavRojo cartItem = {cartItem}/>
 
       <button
         className="bg-red-400"

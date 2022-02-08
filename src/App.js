@@ -8,10 +8,12 @@ import Cart from "./View/Vieworders/Cart";
 import totebagJson from "./totebag.json";
 
 
+
 export const ContextGlobal = createContext();
 
-
 const App = () => {
+
+
   const data = totebagJson;
   const [state, setState] = useState ({
    //estado que contiene dos objetos.
@@ -71,7 +73,7 @@ const App = () => {
 
 
 
-  const global = {state:state, addProduct, decrease, increase, removeFromCart  }
+  const global = {state:state, addProduct, decrease, increase, removeFromCart,  }
 
 
   
@@ -90,6 +92,7 @@ const App = () => {
           <Route path="/Cart" element={<Cart  />} />
         </Routes>
       </Router>
+  
     </div>
     </ContextGlobal.Provider>
   );
