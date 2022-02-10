@@ -37,7 +37,7 @@ const App = () => {
 
 
   //sumar cantidad de producto.
-  const increase = (id) => {
+  const sumar = (id) => {
     setState({
       ...state,
       cart: state.cart.map((cartItem) =>
@@ -50,7 +50,7 @@ const App = () => {
    
   //restar cantidad de producto.
 
-  const decrease = (id) => {
+  const restar = (id) => {
     setState({
       ...state,
       cart: state.cart.map((cartItem) =>
@@ -63,7 +63,7 @@ const App = () => {
  
   //eliminar producto.
 
-  const removeFromCart = (id) => {
+  const limpiar = (id) => {
     setState({
       ...state,
       cart: state.cart.filter((cartItem) => cartItem.id !== id)
@@ -73,7 +73,7 @@ const App = () => {
 
 
 
-  const global = {state:state, addProduct, decrease, increase, removeFromCart,  }
+  const global = {state:state, addProduct, restar, sumar, limpiar,  }
 
 
   
@@ -82,7 +82,7 @@ const App = () => {
   return (
     <ContextGlobal.Provider value = {global}>
 
-    <div className="container">
+    <>
       <Router>
         <Routes>
           <Route path="/" element={<Inicio />} />
@@ -93,7 +93,7 @@ const App = () => {
         </Routes>
       </Router>
   
-    </div>
+    </>
     </ContextGlobal.Provider>
   );
 }

@@ -7,17 +7,22 @@ import recursos from "./recursos/img";
 const NavRosado = () => {
 
   return (
-    <section className="container">
-      <nav className="flex-row px-20 pt-8 pb-4 bg-cover bg-red-50">
-        <div className="flex justify-center h-40">
-          <img src={recursos.img3} alt="logo rosado" />
+    <section className= "pt-5 bg-white bg-cover">
+      <nav>
+        <div className="flex justify-center h-40 ">
+          <img src={recursos.img3} alt="logo rojo" />
         </div>
 
-        <div className="flex justify-end w-10 h-10 aling-items-end">
+        <div className="flex justify-between p-4"> 
+          
+          <div className="justify-item-start basis-1/2 ">
           <Link to="/Inicio">
-            <img src={recursos.img4} alt="btn- de salida" />
+            <img className= "w-12 ml-6" src={recursos.img4} alt="btn de salida" />
           </Link>
+            </div>
+          
         </div>
+
       </nav>
     </section>
   );
@@ -25,57 +30,56 @@ const NavRosado = () => {
 
 const NavRojo = ({cartItem}) => {
   return (
-    <div>
-      <nav className="flex-row px-20 pt-8 pb-4 bg-cover bg-red-50">
-        <div className="flex justify-center h-40">
+    <section className= "pt-5 bg-white bg-cover">
+      <nav>
+        <div className="flex justify-center h-40 ">
           <img src={recursos.img2} alt="logo rojo" />
         </div>
 
-        <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Cart">
-            <img src={recursos.img5} alt="btn de envio a taller" />
-            <span>
-              {cartItem.length === 0 ? "0" : cartItem.length}
-            </span>
+        <div className="flex justify-between p-4"> 
           
-          </Link>
-        </div>
-
-        <div className="flex justify-end w-10 h-10 aling-items-end">
+          <div className="justify-item-start basis-1/2 ">
           <Link to="/Inicio">
-            <img src={recursos.img4} alt="btn de salida " />
+            <img className= "w-12 ml-6" src={recursos.img4} alt="btn de salida" />
           </Link>
+            </div>
+
+      
+          <div className="text-red-400 place-items-end">
+          <Link to="/Cart">           
+              {cartItem.length === 0 ? "0" : cartItem.length}
+            <img className = "w-16 mr-6 " src={recursos.img5} alt="btn de envio a taller" />
+          </Link>
+           </div>
+          
         </div>
 
       </nav>
-    </div>
+    </section>
   );
 };
 
 const NavNaranjo = () => {
   return (
-    <div>
-      <nav className="flex-row px-20 pt-8 pb-4 bg-cover bg-red-50">
-        <div className="flex justify-center h-40">
-          <img src={recursos.img6} alt="logo rojo" />
-        </div>
+    
+    <section className= "pt-5 bg-white bg-cover">
+    <nav>
+      <div className="flex justify-center h-40 ">
+        <img src={recursos.img6} alt="logo rojo" />
+      </div>
 
-        <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Cart">
-            <img src={recursos.img5} alt="btn de envio a taller" />
-           
-          </Link>
+      <div className="flex justify-between p-4"> 
+        
+        <div className="justify-item-start basis-1/2 ">
+        <Link to="/Inicio">
+          <img className= "w-12 ml-6" src={recursos.img4} alt="btn de salida" />
+        </Link>
           </div>
+        
+      </div>
 
-
-        <div className="flex justify-end w-10 h-10 aling-items-end">
-          <Link to="/Inicio">
-            <img src={recursos.img4} alt="btn- de salida" />
-          </Link>
-        </div>
-
-      </nav>
-    </div>
+    </nav>
+  </section>
   );
 };
 
