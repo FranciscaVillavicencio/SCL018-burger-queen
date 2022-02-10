@@ -1,28 +1,24 @@
-// Import the functions you need from the SDKs you need
+// funcion para inicializar firebase
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getAnalytics } from "firebase/analytics";
 
 
 // TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+//npm install firebase@9.4.1 --save
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// objeto de configuración
 const firebaseConfig = {
-  apiKey: "AIzaSyCN4CvY0JxPvEEM_m36TvHRHN7C23JX_jI",
-  authDomain: "ganbaru-51eb7.firebaseapp.com",
-  projectId: "ganbaru-51eb7",
-  storageBucket: "ganbaru-51eb7.appspot.com",
-  messagingSenderId: "249721144764",
-  appId: "1:249721144764:web:48aa7f066d1ddde3c657b9",
-  measurementId: "G-H9JPG4QBMQ"
+  apiKey: "AIzaSyCiQffCkUNyUHvW-IoDlQw8RF5nHTDQ8Wg",
+  authDomain: "ganbaru-02.firebaseapp.com",
+  projectId: "ganbaru-02",
+  storageBucket: "ganbaru-02.appspot.com",
+  messagingSenderId: "919454317296",
+  appId: "1:919454317296:web:714d47ba5ed5a09ec7e035"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore (app);
-const analytics = getAnalytics(app);
+const db = getFirestore();
 
 
 export default db;
