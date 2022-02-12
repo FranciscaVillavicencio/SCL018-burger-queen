@@ -15,6 +15,7 @@ const App = () => {
 
 
   const data = totebagJson;
+
   const [state, setState] = useState ({
    //estado que contiene dos objetos.
     ListProduct: data,
@@ -71,9 +72,17 @@ const App = () => {
   };
 
 
+  const removeAll = () => {
+    setState({
+      ...state,
+      cart: []
+    })
+  }
 
 
-  const global = {state:state, addProduct, restar, sumar, limpiar,  }
+
+
+  const global = {state, setState, addProduct, restar, sumar, limpiar, removeAll}
 
 
   
@@ -89,7 +98,9 @@ const App = () => {
           <Route path="/Inicio" element={<Inicio />} />
           <Route path="/Orders" element={<Orders />} />
           <Route path="/Products" element={<Products data = {data} />} />      
-          <Route path="/Cart" element={<Cart  />} />
+          <Route path="/Cart" element={<Cart/>} />
+         
+
         </Routes>
       </Router>
   

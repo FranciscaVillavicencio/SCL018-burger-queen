@@ -75,8 +75,13 @@ const NavNaranjo = () => {
           <img className= "w-12 ml-6" src={recursos.img4} alt="btn de salida" />
         </Link>
           </div>
+
+          <div className="justify-item-start basis-1/2 ">
         
-      </div>
+          </div>
+          <button className="w-32 px-4 py-2 mt-3 mb-5 font-sans text-sm text-white bg-red-400 rounded-full shadow-lg hover:bg-red-500 shadow-red-700/50">
+          <Link to="/Orders"> Ver Pedidos</Link></button>
+          </div>
 
     </nav>
   </section>
