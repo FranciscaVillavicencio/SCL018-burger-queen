@@ -65,11 +65,15 @@ const App = () => {
   //eliminar producto.
 
   const limpiar = (id) => {
+    console.logo(limpiar)
     setState({
       ...state,
       cart: state.cart.filter((cartItem) => cartItem.id !== id)
+      
     });
+    
   };
+  
 
 
   const removeAll = () => {
@@ -96,11 +100,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/Inicio" element={<Inicio />} />
-          <Route path="/Orders" element={<Orders />} />
+          <Route path="/Orders" element={<Orders/>} />
           <Route path="/Products" element={<Products data = {data} />} />      
           <Route path="/Cart" element={<Cart/>} />
-         
-
+        
         </Routes>
       </Router>
   
